@@ -1,0 +1,75 @@
+{
+  "header" : {
+    "required_libavb_version_major" : 1,
+    "required_libavb_version_minor" : 0,
+    "authentication_data_block_size" : 576,
+    "auxiliary_data_block_size" : 1408,
+    "algorithm_type" : 2,
+    "hash_offset" : 0,
+    "hash_size" : 32,
+    "signature_offset" : 32,
+    "signature_size" : 512,
+    "public_key_offset" : 360,
+    "public_key_size" : 1032,
+    "public_key_metadata_offset" : 1392,
+    "public_key_metadata_size" : 0,
+    "descriptors_offset" : 0,
+    "descriptors_size" : 360,
+    "rollback_index" : 0,
+    "flags" : 0,
+    "release_string" : "avbtool 1.2.0"
+  },
+  "authBlob" : {
+    "offset" : 256,
+    "size" : 576,
+    "hash" : "1ec3572d82be65fbb38d3f3f57d2d4150703c993240ab245b6e94050912ab4fb",
+    "signature" : "169446fa9ed4277aa820c47c6b7655713785020844b0764e05531756c15350d137dcbf126b5e5203eddb92a3789a38e5e235b85fe49d700d0c044e346203d1adb59942d72304ee8989832bb720da0cad89f660c151214fba79cba4c754f5222b39aa8cc5eab3eeea471cf1a03e14d4dd5ef67538ce631b8cf961d1a8c9f59a9d4782a0adfee6dfe887b597fbec282dbbe3d8b771b807389712f8ba6a2fa87168a1dab2e59eb491f4975aae1aed5f076f9ed5dca4fc950205f808c603f70118970c994470b05f0963c48242cf3975a979ce963f7376fed0c3939e7bf7344caffea4f99c7cda43d20846a47f33f1e9c33d17ebcac454151304ded127e56ff32604245ccad772b58e1f55dbac16333b4dd9a831c44481175de0079461864e77a97c63db3451915d5202952e79aa84391c205a7f3ac1c485863b369c31583f172e6e890a4de587466b78f79dfc6626bc90608f48e9f9e1ac75bd37e11655ecc0610962e67a5e25bb3bf64a2af385aea656f0574438a8239906ef5d0f61a37f07ad79585c97ff9f560f62e58e3a0cde98c669008eec5d9d504ea299c27f2c89848b30dc2de7a2bc69ee1a91417b341386bfcbb2086d724798d318af0416f8eb1c850ae94d42ac6530ab90f6e29647e7c285ec289b35a4687325e4400504f7e1f116834ce934fe275d9daf04f2d1fd755e19347e631d8cd0d5c324815b922fcd53ec20"
+  },
+  "auxBlob" : {
+    "pubkey" : {
+      "offset" : 360,
+      "size" : 1032,
+      "pubkey" : "AAAQAB696fOqmcvPXp24WvrWaiOAGtKfhdEcA1qb8i/z1aNA7pMnUaJrP+eWn22VfnViO9+OhvdM6c7+9f6BtThWfyMgtYhGC1iLwBdy9ywNOqY+/AxLKv5IpCCAVL4AyRPf+22ETAjyIqdDykGCRC6LWIGXoWT+fBuZaGGQ635A5lqp1ZhMvaCaCd+fJpZ2NvymO3RRISZyhMaVSMJbGi3p6aLT8NuAzk7VxMIooBV5U5FQ3ExhWSakrjR/zoyFVazzhBtywAv/dXSxivaN/2BpoEXUWlZShk2A1hNkvxT2vIslxXhKUyo38D3f328bDDl9j6hdrZPRwd/iZFH2sWsnzQNZ1Uq/CWIqJxr73sZCx0+EC+h2nYGrhUxPeY1M9ST/bhRroLb67JjGwidKo3LlX5BAysTiUj0jevYmEMRgzCQERxWmknNI/FpySAkAvxO2h9eaJtdcU34MfI62xck3p3rpp+jv88OTV2xUsmaPU2WCVuECkZALzKwGkVpc9uuTRBtviXOpqZcmRjKAcVg1bWFqEsgAONzwyLSUMNkZQbidz+MAObmE5I4NpqDXFU6nz7XWXfKbKQzaG5Mg9TGacBSQY4+dubeUJrO41FxtjHHzImvaLfXD+/EGbaaeqGAjB2Vo02v6dBCXd8bOyOL0rq9kzfTmfQQHjUaEvfGxE1mVJb8oxZ/EwsMVoCj0oz8cgGVVJg65JfvHjHnUKGwWHg9jQIedAZawHvRcYlSulh4BvfiDsHY9zIT5NkZ5gNXP8BFVsXMhX/xWYXa39Tlls2eq6n0s3B/YU+myyYiOL6QFsoNB1QX1fNkZKAgEQpcwRapXHHlvRwdKP8FscyLKmwdBfKg8RZeIZ/9TXL49mq3ocbfrX8se/DdPT61V2nGbApmPErcCrgtbUrxwV1a4LI3C5aMP+52brzOrUYLMeotd8xFgZj1DVgP0nKmuYeq2kzgeTOBWud53KQ+qBcegk942LGGNr1BSuBynkBywTm7iZHidjONcJUgiaB+NnCYewbLDwF21bRphkXthvak/Di2KcVugDUOGblb6X4XNR++ZTnZiBw6IbY85eL2YddPJg4ZH1zNIWa9rRuv9q6VWX1XD5+J92bd34EPuMLrmGvXgYpbfzfuqqLGpPBvbqoRfdgHe7CSe0xa3lDePOTll8sDsKKnr8jOW9CvsbS1s6+x8Nie2UFPwsb/LvfmhhsRTmlZaESRltCOjdZ+XbnSaCw7of/4oQfjk3gLiFNlH6uHDOTdi/QuFsGselWCi8I3NsMf57+1FXiQZsXbR59D+uooDC+J75IDlp2/fkBOVsyTEXe3C4gznsbvoN9GjzkAEo7uti2hjTwhaXHTQ2o3T6XpEBQzj"
+    },
+    "pubkeyMeta" : null,
+    "propertyDescriptors" : [ {
+      "tag" : 0,
+      "num_bytes_following" : 32,
+      "sequence" : 2,
+      "key" : "ARCH",
+      "value" : "arm64"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 24,
+      "sequence" : 3,
+      "key" : "BRANCH",
+      "value" : ""
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 80,
+      "sequence" : 4,
+      "key" : "KERNEL_RELEASE",
+      "value" : "6.1.25-android14-11-g3ce869a6b263-ab11034824"
+    } ],
+    "hashTreeDescriptors" : [ ],
+    "hashDescriptors" : [ {
+      "tag" : 2,
+      "num_bytes_following" : 160,
+      "sequence" : 1,
+      "flags" : 0,
+      "partition_name" : "boot",
+      "hash_algorithm" : "sha256",
+      "image_size" : 15790080,
+      "salt" : "0A3wDQ==",
+      "digest" : "hF3MjZeuSq44jqB5J0OiWm8Mam36K5NMIwd6DnGs2E8=",
+      "partition_name_len" : 4,
+      "salt_len" : 4,
+      "digest_len" : 32,
+      "flagsInterpretation" : "0:A/B system"
+    } ],
+    "kernelCmdlineDescriptors" : [ ],
+    "chainPartitionDescriptors" : [ ],
+    "unknownDescriptors" : [ ]
+  },
+  "footer" : null
+}

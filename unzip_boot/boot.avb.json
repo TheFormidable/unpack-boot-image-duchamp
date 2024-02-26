@@ -1,0 +1,81 @@
+{
+  "header" : {
+    "required_libavb_version_major" : 1,
+    "required_libavb_version_minor" : 0,
+    "authentication_data_block_size" : 320,
+    "auxiliary_data_block_size" : 1088,
+    "algorithm_type" : 1,
+    "hash_offset" : 0,
+    "hash_size" : 32,
+    "signature_offset" : 32,
+    "signature_size" : 256,
+    "public_key_offset" : 544,
+    "public_key_size" : 520,
+    "public_key_metadata_offset" : 1064,
+    "public_key_metadata_size" : 0,
+    "descriptors_offset" : 0,
+    "descriptors_size" : 544,
+    "rollback_index" : 0,
+    "flags" : 0,
+    "release_string" : "avbtool 1.2.0"
+  },
+  "authBlob" : {
+    "offset" : 15806720,
+    "size" : 320,
+    "hash" : "4b13efa805320bec6884cf710d1fc32236a22cbe656ed88de53883386d8303c3",
+    "signature" : "9426f3e03e63095aa8c0d069b7e8bfe021963e83702be8aa019ed79edb4b82d0e058393ecb57618cd45487bd8f18e7e14b6080609071f5e76629fa571e4ded08993c377f476ee2c8f5e32d171f0f313bdcdf3d680c423e4e4ea6d1c2965b8ffe44bcc59c24ca65ce2d4823c5596c73fe9625fa88dbb849ead1bebadccdbc94014ad52f4cf8cbc82907db9c64180dcd77ae41837b366c7e8d9ab8528939a216ca1867956d20ef67a4610e9a379c54a429ea5de39282857800de19be6f96cef685e73ea58294291ca26300220ab72be30211adee7ac1640523b46cffb17ab3860461bee858fd9a474e36afe0f0b663dacbca1bc892756b88141aeb1332a4badacb"
+  },
+  "auxBlob" : {
+    "pubkey" : {
+      "offset" : 544,
+      "size" : 520,
+      "pubkey" : "AAAIAN3C1onuaVOoEOIIpxRB4slj0xuKT7t2yrvDzvHQhOAlM8vz+rnR//6imJ+ET07/dMvAE893FM5LnFQLNcUJ+FYIGjbYdzFCVSYErfVTq96e37/sxVT86Zuz392q8OBkY4UFzpNdwwzWq6J+0tAsEyu778ECITiPceTJgol7IxzjIljHccK3ffP9dQf1FziB6BBTOQBKj26J2KCqtSmXM3Kk4GeV0wdCMZUUcuWXGrt0UjmrD+xHa8jSj9+YRb7BWe+RfYCXtqrAaree/Q24GAm4nSznDjfSH4T50JiNBkaeOf9YZwQlh67JtFZbueUP5prlQ3eXmubddodnA0LdDkOJooBHvMZAM/73+AWtsf145vMRUdtuvj5Dp9shR+kHaBoB78kQ2vUcrT7eetQynrH1TtwpXzXqAfzHRfv1tw2icvPnjFYV7m3njNcrb05Bx/oMvqKzrx99kCZEWuVm8un3gC/ucW9cXkAB+onTQnfJbeS5XcbEPcZkuQ0b7BepCScYnMrlOMSClYYl8OPNK576YRa2KQxdWEbdukihNIhaZhBN/tqdszA2w2960rO70ektljBVPP6m2jcT5iV0spMiers5KtqZ8cy++Urhvg0mWiuPcnue4L7W59lf9bJVlkaFrBfOHvxMdgmmrHCgZd9278zJrYDgFK17kojwSqqqwCkoFQ=="
+    },
+    "pubkeyMeta" : null,
+    "propertyDescriptors" : [ {
+      "tag" : 0,
+      "num_bytes_following" : 56,
+      "sequence" : 2,
+      "key" : "com.android.build.boot.os_version",
+      "value" : "14"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 168,
+      "sequence" : 3,
+      "key" : "com.android.build.boot.fingerprint",
+      "value" : "Xiaomi/hal_mgvi_64_armv82_mt6897_global/mgvi_64_armv82:14/UP1A.230905.011/V816.0.4.0.UNLMIXM:user/release-keys"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 72,
+      "sequence" : 4,
+      "key" : "com.android.build.boot.security_patch",
+      "value" : "2019-06-06"
+    } ],
+    "hashTreeDescriptors" : [ ],
+    "hashDescriptors" : [ {
+      "tag" : 2,
+      "num_bytes_following" : 184,
+      "sequence" : 1,
+      "flags" : 0,
+      "partition_name" : "boot",
+      "hash_algorithm" : "sha256",
+      "image_size" : 15806464,
+      "salt" : "JxrvlKsqFEpocQpn4Ni068H4Rxgsj9EtbCh+HPlNg/g=",
+      "digest" : "/86JwKhlFTqzlJmxsK5OLH8Adn11DzGi10RDQEmttqo=",
+      "partition_name_len" : 4,
+      "salt_len" : 32,
+      "digest_len" : 32,
+      "flagsInterpretation" : "0:A/B system"
+    } ],
+    "kernelCmdlineDescriptors" : [ ],
+    "chainPartitionDescriptors" : [ ],
+    "unknownDescriptors" : [ ]
+  },
+  "footer" : {
+    "versionMajor" : 1,
+    "versionMinor" : 0,
+    "originalImageSize" : 15806464,
+    "vbMetaOffset" : 15806464,
+    "vbMetaSize" : 1664
+  }
+}
